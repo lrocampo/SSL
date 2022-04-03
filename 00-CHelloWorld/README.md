@@ -16,4 +16,4 @@ trabajos posteriores.
 1. Clonar el repositorio
 2. Abrir una terminal posicionadose en el directorio donde se encuentra el TP.
 3. Ejecutar el comando `make run`.
-4. Ejecutar make clean para borrar el archivo binario `hello`
+4. Ejecutar make clean para borrar el archivo binario `hello` y el `output.txt`
