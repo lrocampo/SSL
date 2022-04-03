@@ -1,8 +1,12 @@
 #include <stdio.h>
+//#include <stdlib.h>
 
 int main (void) {
+    // FILE *file = fopen("output.txt","a+");
 
-    printf("Hello world!\n");
+    // fprintf(file, "Hello world!\n");
+
+    printf("Hello World!\n");
 
     return 0;
 }

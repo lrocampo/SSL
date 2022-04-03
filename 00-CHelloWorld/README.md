@@ -15,5 +15,5 @@ trabajos posteriores.
 ### Cómo ejecutar el TP
 1. Clonar el repositorio
 2. Abrir una terminal posicionadose en el directorio donde se encuentra el TP.
-3. Ejecutar el comando `make run`.
-4. Ejecutar `make clean` para borrar el archivo binario `hello`
+3. Ejecutar el comando `gcc hello.c -o hello -Wall -std=c17`.
+4. Ejecutar el comando `./hello > output.txt`
