@@ -1,0 +1,8 @@
+{
+    "makefile.extensionOutputFolder": "./.vscode",
+    "files.associations": {
+        "Conversion.C": "cpp",
+        "conversion.h": "c",
+        "cmath": "c"
+    }
+}
