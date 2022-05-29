@@ -1,5 +1,5 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-make: *** No rule to make target 'TablasDeConversion.c', needed by 'TablasDeConversion.o'.  Stop.
+make: *** No rule to make target 'TablasDeConversion.o', needed by 'all'.  Stop.
 
 # GNU Make 4.2.1
 # Built for x86_64-pc-linux-gnu
@@ -8,7 +8,7 @@ make: *** No rule to make target 'TablasDeConversion.c', needed by 'TablasDeConv
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun May 15 00:18:37 2022
+# Make data base, printed on Sun May 29 19:44:36 2022
 
 # Variables
 
@@ -50,6 +50,8 @@ VTE_VERSION = 6003
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
 _ = /usr/bin/code
+# makefile (from 'Makefile', line 2)
+CFLAGS = -std=c18 -Wall
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-cinnamon:/etc/xdg
 # environment
@@ -77,11 +79,11 @@ XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session0
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
-PATH = /home/lautaro/.cabal/bin:/home/lautaro/.ghcup/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+PATH = /home/lautaro/.config/composer/vendor/bin:/home/lautaro/.cabal/bin:/home/lautaro/.ghcup/bin:/home/lautaro/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
-SESSION_MANAGER = local/VivoBook:@/tmp/.ICE-unix/1394,unix/VivoBook:/tmp/.ICE-unix/1394
+SESSION_MANAGER = local/VivoBook:@/tmp/.ICE-unix/1532,unix/VivoBook:/tmp/.ICE-unix/1532
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
@@ -113,7 +115,7 @@ QT_QPA_PLATFORMTHEME = qt5ct
 # environment
 XDG_SEAT = seat0
 # environment
-SSH_AGENT_PID = 1466
+SSH_AGENT_PID = 1604
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = X-Cinnamon
 # environment
@@ -127,7 +129,7 @@ LESSCLOSE = /usr/bin/lesspipe %s %s
 # environment
 VSCODE_CLI = 1
 # environment
-VSCODE_CODE_CACHE_PATH = /home/lautaro/.config/Code/CachedData/da15b6fd3ef856477bf6f4fb29ba1b7af717770d
+VSCODE_CODE_CACHE_PATH = /home/lautaro/.config/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
 # environment
 LOGNAME = lautaro
 # environment
@@ -154,8 +156,10 @@ MAKE = $(MAKE_COMMAND)
 MAKECMDGOALS := all
 # environment
 SHLVL = 1
+# makefile (from 'Makefile', line 1)
+CC = gcc
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-0d09f316-50b6-4555-b289-3f2bf21a8498.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-341be96a-d2c7-4868-87b6-61149559aa17.sock
 # environment
 XDG_SESSION_ID = c2
 # environment
@@ -173,7 +177,7 @@ LC_TELEPHONE = es_AR.UTF-8
 # default
 MAKE_COMMAND := make
 # environment
-OLDPWD = /home/lautaro/workspace/SSL
+OLDPWD = /home/lautaro
 # default
 .VARIABLES := 
 # automatic
@@ -183,7 +187,7 @@ LANGUAGE = en_US
 # environment
 XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-acc8a09a-1.67.1-main.sock
+VSCODE_IPC_HOOK = /run/user/1000/vscode-acc8a09a-1.67.2-main.sock
 # makefile
 MAKEFLAGS = pqrR
 # environment
@@ -199,7 +203,7 @@ LC_PAPER = es_AR.UTF-8
 # environment
 QT_ACCESSIBILITY = 1
 # environment
-DESKTOP_AUTOSTART_ID = 1029deca4e1d96de77165249702547174300000013940008
+DESKTOP_AUTOSTART_ID = 10cfd5cb98d9d0bb2c165385280952833900000015320009
 # default
 MAKEFILES := 
 # environment
@@ -211,11 +215,11 @@ LC_MEASUREMENT = es_AR.UTF-8
 # environment
 LC_ALL = C
 # environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/f470b64b_fca0_4425_87ba_9fa912af26f3
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/21b36be6_20c2_447e_a793_a93d50158252
 # automatic
 ^F = $(notdir $^)
 # environment
-GNOME_TERMINAL_SERVICE = :1.392
+GNOME_TERMINAL_SERVICE = :1.262
 # default
 SUFFIXES := 
 # environment
@@ -233,9 +237,9 @@ LANG = C
 # environment
 TERM = xterm-256color
 # environment
-VSCODE_PID = 38437
+VSCODE_PID = 12431
 # variable set hash-table stats:
-# Load=111/1024=11%, Rehash=0, Collisions=12/136=9%
+# Load=113/1024=11%, Rehash=0, Collisions=12/138=9%
 
 # Pattern-specific Variable Values
 
@@ -243,9 +247,9 @@ VSCODE_PID = 38437
 
 # Directories
 
-# . (device 2050, inode 56626867): 4 files, no impossibilities.
+# . (device 2050, inode 56626867): 8 files, no impossibilities.
 
-# 4 files, no impossibilities in 1 directories.
+# 8 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -255,44 +259,41 @@ VSCODE_PID = 38437
 
 # Not a target:
 TablasDeConversion.c:
-#  Implicit rule search has been done.
-#  File does not exist.
+#  Implicit rule search has not been done.
+#  Modification time never checked.
 #  File has not been updated.
 
-all: TablasDeConversion ConversionTest
+all: TablasDeConversion.o ConversionTest.o
 #  Command line target.
-#  Implicit rule search has been done.
+#  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
+#  recipe to execute (from 'Makefile', line 5):
+	$(CC) ConversionTest.o -o ConversionTest $(CFLAGS)
+	$(CC) TablasDeConversion.o -o TablasDeConversion $(CFLAGS)
 
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-09 21:40:14.045392777
+#  Last modified 2022-05-28 23:48:08.025949784
 #  File has been updated.
 #  Successfully updated.
 
-ConversionTest.o: ConversionTest.c
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 13):
-	gcc -c Conversion.c ConversionTest.c -o ConversionTest.o
-
-ConversionTest: ConversionTest.o
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 7):
-	gcc Conversion.o ConversionTest.o -o ConversionTest
-
-Conversion.o: Conversion.c
  
+build: Conversion.c ConversionTest.c TablasDeConversion.c
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 16):
-	gcc -c Conversion.c -o Conversion.o
+#  recipe to execute (from 'Makefile', line 9):
+	$(CC) -c Conversion.c -o Conversion.o $(CFLAGS)
+	$(CC) -c ConversionTest.c -o ConversionTest.o $(CFLAGS)
+	$(CC) -c TablasDeConversion.c -o TablasDeConversion.o $(CFLAGS)
+
+# Not a target:
+ConversionTest.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
 .DEFAULT:
@@ -300,19 +301,11 @@ Conversion.o: Conversion.c
 #  Modification time never checked.
 #  File has not been updated.
 
-TablasDeConversion: TablasDeConversion.o
-#  Implicit rule search has not been done.
+# Not a target:
+TablasDeConversion.o:
+#  Implicit rule search has been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 4):
-	gcc Conversion.o TablasDeConversion.o -o TablasDeConversion
-
-TablasDeConversion.o: TablasDeConversion.c
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 10):
-	gcc -c Conversion.c TablasDeConversion.c -o TablasDeConversion.o
 
 # Not a target:
 ConversionTest.c:
@@ -327,19 +320,19 @@ Conversion.c:
 #  File has not been updated.
 
 # files hash-table stats:
-# Load=12/1024=1%, Rehash=0, Collisions=0/34=0%
+# Load=10/1024=1%, Rehash=0, Collisions=0/26=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 17 / storage = 213 B / avg = 12 B
-# current buf: size = 8162 B / used = 213 B / count = 17 / avg = 12 B
+# strcache buffers: 1 (0) / strings = 16 / storage = 185 B / avg = 11 B
+# current buf: size = 8162 B / used = 185 B / count = 16 / avg = 11 B
 
-# strcache performance: lookups = 32 / hit rate = 46%
+# strcache performance: lookups = 26 / hit rate = 38%
 # hash-table stats:
-# Load=17/8192=0%, Rehash=0, Collisions=1/32=3%
-# Finished Make data base on Sun May 15 00:18:37 2022
+# Load=16/8192=0%, Rehash=0, Collisions=1/26=4%
+# Finished Make data base on Sun May 29 19:44:36 2022
 
  

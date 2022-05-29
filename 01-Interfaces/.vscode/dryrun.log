@@ -1,7 +1,8 @@
 make --dry-run --always-make --keep-going --print-directory
 make: Entering directory '/home/lautaro/workspace/SSL/01-Interfaces'
+gcc -std=c18 -Wall   -c -o TablasDeConversion.o TablasDeConversion.c
+gcc -std=c18 -Wall   -c -o ConversionTest.o ConversionTest.c
+gcc ConversionTest.o -o ConversionTest -std=c18 -Wall
+gcc TablasDeConversion.o -o TablasDeConversion -std=c18 -Wall
 make: Leaving directory '/home/lautaro/workspace/SSL/01-Interfaces'
  
-make: *** No rule to make target 'TablasDeConversion.c', needed by 'TablasDeConversion.o'.
-make: *** No rule to make target 'ConversionTest.c', needed by 'ConversionTest.o'.
-
